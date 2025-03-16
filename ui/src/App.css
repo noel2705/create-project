@@ -1,15 +1,90 @@
 #root {
     max-width: 1280px;
-    margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    width: 100%;
 }
 
-.verflixt {
+.Mine{
+    background: url("/img/crl.jpg");
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    color: white;
+    background-color: blue;
+}
+.Werkstatt{
+    background: url("/img/crl.jpg");
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 175px;
+    color: white;
+    background-color: blue;
+}
+
+.mineh1{
+    position: absolute;
+    top: 10px;
+}
+
+.goldmine{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+
+.coalmine{
+    width: 1280px;
+    height: 900px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    z-index: -1;
+}
+
+.Coalh1{
+    background-color: black;
+}
+
+.Coalminelvl{
+position: relative;
+background-color: black;
+width: 100px;
+height: 20px;
+
+}
+
+.Coalmineincome{
+position: relative;
+background-color: black;
+width: 100px;
+height: 20px;
+}
+
+.upgradeMineButton{
+background-color: red;
+}
+
+
+.UpgradeMineGUI{
+width: 300px;
+height: 600px;
+background-color: red;
+}
+
+
+.Mainscreenfabrik {
     height: 20em;
     padding: 0em;
     will-change: filter;
     transition: filter 300ms;
+    position: relative;
+    left: 100px;
 
 }
 .verflixte {
@@ -64,4 +139,25 @@
 
 .read-the-docs {
     color: #888;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 40px;
+}
+
+.contentCenter {
+    flex-grow: 2;
+}
+
+.UpgradeMineGUI {
+    width: 100%;
 }
